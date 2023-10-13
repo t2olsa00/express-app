@@ -13,13 +13,13 @@ const html = `
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello from Render!</title>
+    <title>Express app quickstart works</title>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
     <script>
       setTimeout(() => {
         confetti({
-          particleCount: 100,
-          spread: 70,
+          particleCount: 10000,
+          spread: 700,
           origin: { y: 0.6 },
           disableForReducedMotion: true
         });
@@ -39,7 +39,7 @@ const html = `
         font-size: calc(62rem / 16);
       }
       body {
-        background: white;
+        background: green;
       }
       section {
         border-radius: 1em;
